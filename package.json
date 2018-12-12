@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-sending",
+  "version": "1.0.0",
+  "description": "This is a initial description",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "sending",
+    "messages",
+    "massive",
+    "study"
+  ],
+  "author": "N00B & lucashenrique18",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
