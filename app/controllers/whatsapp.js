@@ -1,5 +1,5 @@
 module.exports = {
-    login: async function(page, res){
+    login: async(page, res) => {
         const WhatsUrl = 'https://web.whatsapp.com/';
         login = false;
         do {
