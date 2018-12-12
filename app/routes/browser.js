@@ -1,11 +1,14 @@
-module.exports = (app) => {
+module.exports = (application) => {
     
-    app.get('/browser/list', (req, res) => {
-        res.send('get browser list');
+    application.get('/browser/new', (req, res) => {
+        application.app.controllers.browser.newBrowser(application, req, res); 
     });
 
-    app.post('/browser/new', (req, res) => {
-        res.send('generate new browser');
+    application.get('/browser/login', (req, res) => {
+        (async () => {
+            page = await application.app.controllers.browser.page;
+            await application.app.controllers.whatsapp.login(page, res);
+        })();
     });
 
 }
