@@ -6,4 +6,8 @@ var express = require('express'),
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+consign()
+    .include('app/routes')
+    .into(app);
+
 module.exports = app;
