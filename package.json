@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-sending",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a initial description",
   "main": "app.js",
   "scripts": {
