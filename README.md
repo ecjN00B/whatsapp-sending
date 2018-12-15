@@ -9,7 +9,7 @@ The back-end was developed using NodeJS and has a MongoDB DataBase.
 ### Prerequisites
 
 Before you can run the application, make sure that you have the following software installed:
-* [NPM + NodeJS](https://nodejs.org/en/) (Highly Recommended Node.js 8.0+)
+* [NPM + NodeJS](https://nodejs.org/en/) (Highly Recommended Node.js 10.14+)
 
 #### From NPM
 * Install from npm `npm install`
