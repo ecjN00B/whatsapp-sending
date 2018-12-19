@@ -2,7 +2,7 @@
 
 This is a project for study and improvement purposes that simulates a whatsapp sending campaigns in a way similar to what happens with email and SMS in which the scripts were hidden in order not to be commercialized as marketing massive messages.
 
-The back-end was developed using NodeJS and has a MongoDB DataBase.
+The back-end was developed using NodeJS and has a Mongo DataBase.
 
 ## Getting Started
 
